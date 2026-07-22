@@ -1,0 +1,53 @@
+.event-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 6px;
+  border-radius: 4px;
+  font-size: 0.68rem;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  gap: 4px;
+}
+
+.event-card:hover {
+  filter: brightness(1.2);
+}
+
+.event-pending {
+  background: var(--info-bg);
+  color: var(--info);
+  border-left: 2px solid var(--info);
+}
+
+.event-in-progress {
+  background: var(--warning-bg);
+  color: var(--warning);
+  border-left: 2px solid var(--warning);
+}
+
+.event-completed {
+  background: var(--success-bg);
+  color: var(--success);
+  border-left: 2px solid var(--success);
+  opacity: 0.7;
+}
+
+.event-missed {
+  background: var(--danger-bg);
+  color: var(--danger);
+  border-left: 2px solid var(--danger);
+}
+
+.event-card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.event-card-hours {
+  flex-shrink: 0;
+  font-weight: 600;
+  opacity: 0.8;
+}

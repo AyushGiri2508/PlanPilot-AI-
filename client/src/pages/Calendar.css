@@ -1,0 +1,19 @@
+.calendar-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.calendar-nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.calendar-month-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  min-width: 180px;
+  text-align: center;
+}

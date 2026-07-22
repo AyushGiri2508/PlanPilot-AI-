@@ -1,0 +1,70 @@
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.task-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.task-list-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.task-list-info h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.task-list-count {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  background: var(--bg-glass-strong);
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+}
+
+.task-list-filters {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.task-filter-icon {
+  color: var(--text-muted);
+  margin-right: 4px;
+}
+
+.task-filter-btn {
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  background: transparent;
+  transition: all var(--transition-fast);
+}
+
+.task-filter-btn:hover {
+  background: var(--bg-glass-strong);
+  color: var(--text-primary);
+}
+
+.task-filter-btn.active {
+  background: rgba(16, 185, 129, 0.15);
+  color: var(--accent-primary);
+  font-weight: 600;
+}
+
+.task-list-items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

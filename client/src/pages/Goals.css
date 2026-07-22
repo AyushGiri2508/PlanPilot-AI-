@@ -1,0 +1,26 @@
+.goals-header-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.goals-filters {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.goals-filter-active {
+  background: rgba(16, 185, 129, 0.12) !important;
+  color: var(--accent-primary) !important;
+}
+
+.goals-filter-count {
+  background: var(--bg-glass-strong);
+  padding: 1px 6px;
+  border-radius: var(--radius-full);
+  font-size: 0.7rem;
+  margin-left: 4px;
+}

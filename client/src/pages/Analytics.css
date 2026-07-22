@@ -1,0 +1,45 @@
+.analytics-charts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.analytics-goals-section {
+  margin-bottom: 32px;
+}
+
+.analytics-goals-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.analytics-goals-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.analytics-goal-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.analytics-goal-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.analytics-goal-name {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.analytics-goal-pct {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--accent-primary);
+}
